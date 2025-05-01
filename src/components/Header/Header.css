@@ -67,7 +67,8 @@
       bottom: -100%;
       left: 0;
       width: 100%;
-      background-color: 2rem 1.5rem 4rem;
+      /* padding: 2rem 1.5rem 4rem; */
+      background-color: white;
       box-shadow: 0 -1px 4px rgba(0,0,0,0.15);
       border-radius: 1.5rem 1.5rem 0 0;
       transition: 0.3s;
@@ -92,7 +93,7 @@
             position: absolute;
             right: 1.3rem;
             bottom: 0.5rem;
-            font-size: 1.5rem;
+            font-size: 1.7frem;
             cursor: pointer;
             color: var(--title-color);
       }
@@ -100,7 +101,7 @@
            color: var(--title-color-dark); 
       }
       .nav_toggle{
-            font-size: 1.1rem;
+            font-size: 1.5rem;
             cursor: pointer;
       }
       .nav_icon, .nav_close, .nav_toggle{
