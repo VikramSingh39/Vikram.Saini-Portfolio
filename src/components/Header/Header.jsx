@@ -17,7 +17,7 @@ const Header = () => {
         <ul className="nav_list grid">
 
           <li className="nav_item">
-            <a href="home" className="nav_link active-link">
+            <a href="home" className="nav_link">
             <i className="ri-home-4-line nav_icon"></i>Home
             </a>
           </li>
