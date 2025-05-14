@@ -1,4 +1,4 @@
-.header{
+ .header{
       width: 100%;
       position: fixed;
       top:0;
@@ -116,4 +116,4 @@
   .nav_list{
       column-gap: 0;
   }
-}
+} 

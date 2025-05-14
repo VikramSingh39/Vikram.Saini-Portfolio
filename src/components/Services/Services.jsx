@@ -1,12 +1,12 @@
 import React from 'react'
 import { useState } from 'react'
 import './Services.css'
+
 const Services = () => {
      const[toggleState, setToggleState] = useState(0);
      const toggleTab = (index) =>{
       setToggleState(index);
      }
-
   return (
     <section className="servicrs section" id='services'>
        <h2 className="section_title">Services</h2>
@@ -17,7 +17,7 @@ const Services = () => {
             <div className="services_content">
                   <div>
                         <i className='ri-window-line services_icon'></i>
-                        <h3 className="services_title">Product <br/> Designer</h3>
+                        <h3 className="services_title">Frontend<br/> Developer</h3>
                   </div>
                   <span className="services_button" 
                   onClick={() => toggleTab(1)}>View More
@@ -27,29 +27,24 @@ const Services = () => {
                         <div className="services_modal-content">
                               <i onClick={()=> toggleTab(0)} className="ri-close-line services_modal-close"></i>
 
-                              <h3 className="services_modal-title">Product Designer</h3>
-                              <p className="services_modal-description">Expertise in providing quality work to clients and companies</p>
+                              <h3 className="services_modal-title">Frontend Developer</h3>
+                              <p className="services_modal-description"> Frontend Developer Specializing in Responsive Web Interfaces and User-Centric Design.</p>
 
                               <ul className="services_modal-services grid">
 
                                     <li className="services_modal-service">
                                           <i className="ri-verified-badge-line services_modal-icon"></i>
-                                          <p className="services_modal-info">I Develop the user interface</p>
+                                          <p className="services_modal-info">Creating mobile-first, cross-browser compatible interfaces with precision.</p>
                                     </li>
 
                                     <li className="services_modal-service">
                                           <i className="ri-verified-badge-line services_modal-icon"></i>
-                                          <p className="services_modal-info">Web page development</p>
+                                          <p className="services_modal-info">Leveraging modern JavaScript frameworks to deliver dynamic user experiences.</p>
                                     </li>
 
                                     <li className="services_modal-service">
                                           <i className="ri-verified-badge-line services_modal-icon"></i>
-                                          <p className="services_modal-info">I create UX element interactions</p>
-                                    </li>
-
-                                    <li className="services_modal-service">
-                                          <i className="ri-verified-badge-line services_modal-icon"></i>
-                                          <p className="services_modal-info">I position your company brand</p>
+                                          <p className="services_modal-info">Convert Figma Design page into Code</p>
                                     </li>
 
                                     <li className="services_modal-service">
@@ -75,33 +70,28 @@ const Services = () => {
                               <i onClick={()=> toggleTab(0)} className="ri-close-line services_modal-close"></i>
 
                               <h3 className="services_modal-title">UI/UX Designer</h3>
-                              <p className="services_modal-description">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Atque, eos?</p>
+                              <p className="services_modal-description">I Code Digital Experiences That Feel as Good as They Look</p>
 
                               <ul className="services_modal-services grid">
 
                                     <li className="services_modal-service">
                                           <i className="ri-verified-badge-line services_modal-icon"></i>
-                                          <p className="services_modal-info">I Develop the user interface</p>
+                                          <p className="services_modal-info">Crafting interfaces with empathy, clarity, and usability at the core.</p>
                                     </li>
 
                                     <li className="services_modal-service">
                                           <i className="ri-verified-badge-line services_modal-icon"></i>
-                                          <p className="services_modal-info">Web page development</p>
+                                          <p className="services_modal-info">Translating ideas into seamless, interactive journeys that captivate users</p>
                                     </li>
 
                                     <li className="services_modal-service">
                                           <i className="ri-verified-badge-line services_modal-icon"></i>
-                                          <p className="services_modal-info">I create UX element interactions</p>
+                                          <p className="services_modal-info">Balancing aesthetic appeal with purposeful interaction and accessibility.</p>
                                     </li>
 
                                     <li className="services_modal-service">
                                           <i className="ri-verified-badge-line services_modal-icon"></i>
-                                          <p className="services_modal-info">I position your company brand</p>
-                                    </li>
-
-                                    <li className="services_modal-service">
-                                          <i className="ri-verified-badge-line services_modal-icon"></i>
-                                          <p className="services_modal-info">Design and mockups of products for companies</p>
+                                          <p className="services_modal-info">Leveraging feedback and research to continuously enhance the user experience.</p>
                                     </li>
 
                               </ul>
@@ -123,33 +113,28 @@ const Services = () => {
                               <i onClick={()=> toggleTab(0)} className="ri-close-line services_modal-close"></i>
 
                               <h3 className="services_modal-title">Visual Designer</h3>
-                              <p className="services_modal-description">Velit qui ducimus quam nisi dicta voluptas modi repudiandae alias eaque consequuntur?</p>
+                              <p className="services_modal-description">Bringing Ideas to Life Through Bold and Beautiful Visuals</p>
 
                               <ul className="services_modal-services grid">
 
                                     <li className="services_modal-service">
                                           <i className="ri-verified-badge-line services_modal-icon"></i>
-                                          <p className="services_modal-info">I Develop the user interface</p>
+                                          <p className="services_modal-info">Designing with purpose to evoke emotion, clarity, and brand identity.</p>
                                     </li>
 
                                     <li className="services_modal-service">
                                           <i className="ri-verified-badge-line services_modal-icon"></i>
-                                          <p className="services_modal-info">Web page development</p>
+                                          <p className="services_modal-info">Merging color, typography, and layout into compelling visual compositions.</p>
                                     </li>
 
                                     <li className="services_modal-service">
                                           <i className="ri-verified-badge-line services_modal-icon"></i>
-                                          <p className="services_modal-info">I create UX element interactions</p>
+                                          <p className="services_modal-info">Creating unified design systems that resonate across every platform.</p>
                                     </li>
 
                                     <li className="services_modal-service">
                                           <i className="ri-verified-badge-line services_modal-icon"></i>
-                                          <p className="services_modal-info">I position your company brand</p>
-                                    </li>
-
-                                    <li className="services_modal-service">
-                                          <i className="ri-verified-badge-line services_modal-icon"></i>
-                                          <p className="services_modal-info">Design and mockups of products for companies</p>
+                                          <p className="services_modal-info">Communicating powerful messages through striking visual language.</p>
                                     </li>
 
                               </ul>

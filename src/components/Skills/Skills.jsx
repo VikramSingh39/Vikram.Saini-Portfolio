@@ -1,6 +1,6 @@
 import React from 'react'
 import Frontend from './Frontend'
-import Backend from './Backend'
+// import Backend from './Backend'
 
 const Skills = () => {
   return (
@@ -9,7 +9,7 @@ const Skills = () => {
       <span className="section_subtitle">My Technical Level</span>
       <div className="skills_container container grid">
       <Frontend></Frontend>
-      <Backend></Backend>
+      {/* <Backend></Backend> */}
       </div>
       
    </section>

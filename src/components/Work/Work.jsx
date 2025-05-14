@@ -1,15 +1,14 @@
-import React from 'react'
+import React from 'react';
+import "./work.css";
 import Works from './Works';
-import './Work.css'
-
 const Work = () => {
   return (
-      <section className="work section" id='porftolio'>
-      <h2 className="section_title">Portfolio</h2>
-      <span className="section_subtitle">Most Recent Project</span>
-      <Works></Works>
+    <section className="work section" id='projects'>
+             <h2 className="section_title">Projects</h2>
+             <span className="section_subtitle">Most Recent Work</span>
+        <Works/>
     </section>
   )
 }
 
-export default Work;
+export default Work
