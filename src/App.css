@@ -106,6 +106,7 @@ button {
   cursor: pointer;
   border: none;
   outline: none;
+
 }
 
 img {
@@ -156,6 +157,7 @@ img {
   padding: 1.25rem 2rem;
   border-radius: 1rem;
   font-weight: var(--font-medium);
+  margin-top: 10px;
 }
 
 .button:hover {
@@ -169,6 +171,7 @@ img {
 .button--flex {
   display: inline-flex;
   align-items: center;
+  margin-left: 10px;
 }
 
 /*=============== BREAKPOINTS ===============*/

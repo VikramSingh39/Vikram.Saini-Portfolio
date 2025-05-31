@@ -1,7 +1,7 @@
 import React from 'react'
 import './About.css'
 import AboutImg from '../../assets/about2.jpg';
-import CV from '../../assets/John-Cv.pdf';
+// import CV from '../../assets/Vikram-Fronted_Dev.pdf';
 import Info from './Info';
 
 const About = () => {
@@ -18,7 +18,7 @@ const About = () => {
                   <p className="about_description">
                         Fronted developer, I create web pages with UI/UX user interface, I have one year of experience and many clients are happy with the projects carried out.
                   </p>
-                  <a download="" href={CV} className="button button--flex">Download Resume <svg
+                  {/* <a download="" href={CV} className="button button--flex">Download Resume <svg
                  className="button__icon"
                  xmlns="http://www.w3.org/2000/svg"
                  width="24"
@@ -43,7 +43,7 @@ const About = () => {
                   fill="var(--container-color)"
                 ></path>
               </svg>
-                  </a>
+                  </a> */}
             </div>
       </div>
     </section>

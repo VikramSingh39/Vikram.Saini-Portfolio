@@ -1,9 +1,8 @@
-import React from 'react'
 import './Skills.css'
 
 const Frontend = () => {
   return (
-    <div className="skills_content">
+    <div className="skills_content ">
       <h3 className='skills_title'>Frontend Developer</h3>
 
       <div className="skills_box">
@@ -13,7 +12,7 @@ const Frontend = () => {
                   <i className="ri-verified-badge-line"></i>
                   <div>
                        <h3 className="skills_name">HTML</h3> 
-                       <span className="skills_level">Intermediate</span>
+           
                   </div>
                   </div>
 
@@ -21,7 +20,7 @@ const Frontend = () => {
                   <i className="ri-verified-badge-line"></i>
                   <div>
                        <h3 className="skills_name">CSS</h3> 
-                       <span className="skills_level">Intermediate</span>
+          
                   </div>
                   </div>
 
@@ -29,7 +28,14 @@ const Frontend = () => {
                   <i className="ri-verified-badge-line"></i>
                   <div>
                        <h3 className="skills_name">JavaScript</h3> 
-                       <span className="skills_level">Intermediate</span>
+          
+                  </div>
+                  </div>
+                                    <div className="skills_data">
+                  <i className="ri-verified-badge-line"></i>
+                  <div>
+                       <h3 className="skills_name">Firebase</h3> 
+           
                   </div>
                   </div>
                   
@@ -41,7 +47,7 @@ const Frontend = () => {
 <i className="ri-verified-badge-line"></i>
 <div>
      <h3 className="skills_name">Tailwind</h3> 
-     <span className="skills_level">Intermediate</span>
+
 </div>
 </div>
 
@@ -49,7 +55,7 @@ const Frontend = () => {
 <i className="ri-verified-badge-line"></i>
 <div>
      <h3 className="skills_name">Git</h3> 
-     <span className="skills_level">Intermediate</span>
+
 </div>
 </div>
 
@@ -57,7 +63,14 @@ const Frontend = () => {
 <i className="ri-verified-badge-line"></i>
 <div>
      <h3 className="skills_name">React</h3> 
-     <span className="skills_level">Intermediate</span>
+
+</div>
+</div>
+<div className="skills_data">
+<i className="ri-verified-badge-line"></i>
+<div>
+     <h3 className="skills_name">Redux</h3> 
+
 </div>
 </div>
 

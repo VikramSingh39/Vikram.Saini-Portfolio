@@ -1,8 +1,10 @@
-/* .skills_container{
-      grid-template-columns: repeat(2, 350px);
-      column-gap: 3rem;
+.skills_container{
+      /* grid-template-columns: repeat(2, 350px);
+      column-gap: 3rem; */
+      display: flex;
       justify-content: center;
-} */
+      margin: auto;
+}
 .skills_content{
       background-color: var(--container-color);
       border: 1px solid rgba(0,0,0,0.1);
