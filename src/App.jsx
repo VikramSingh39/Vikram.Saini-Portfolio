@@ -1,15 +1,15 @@
 
 import './App.css'
-import Header from './components/Header/Header'
-import Home from './components/Home/Home'
-import About from './components/About/About'
-import Skills from './components/skills/Skills'
-import Services from './components/Services/Services'
-import Qualification from './components/Qualification/Qualification'
-import Work from './components/Work/Work'
-import Contact from './components/Contact/Contact'
-import Footer from './components/Footer/Footer'
-import ScrollUp from './components/ScrollUp/ScrollUp'
+import Header from './components/header/Header.jsx'
+import Home from './components/homePage/Home.jsx'
+import About from './components/about/About.jsx'
+import Skills from './components/skills/Skills.jsx'
+import Services from './components/services/Services.jsx'
+import Qualification from './components/qualification/Qualification.jsx'
+import Work from './components/work/Work.jsx'
+import Contact from './components/contact/Contact.jsx'
+import Footer from './components/footer/Footer.jsx'
+import ScrollUp from './components/scrollup/ScrollUp.jsx'
 
 function App() {
 
