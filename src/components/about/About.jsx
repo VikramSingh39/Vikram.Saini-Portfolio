@@ -1,6 +1,5 @@
 import React from 'react'
 import './About.css'
-import AboutImg from '../../assets/about2.jpg';
 // import CV from '../../assets/Vikram-Fronted_Dev.pdf';
 import Info from './Info';
 
@@ -11,7 +10,7 @@ const About = () => {
       <span className="section_subtitle">My Intorduction</span>
 
       <div className="about_container container grid">
-            <img src={AboutImg} alt="" className="about_img" />
+            <img src="https://res.cloudinary.com/dtqc6499r/image/upload/v1748831459/about2_dlygas.webp" alt="" className="about_img" />
 
             <div className="about_data">
                   <Info></Info>
