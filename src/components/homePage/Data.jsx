@@ -6,7 +6,7 @@ const Data = () => {
 <div className="home_data">
       <h1 className="home_title">Vikram Singh
       <svg
-                  width="36"
+                  width="26"
                   height="36"
                   viewBox="0 0 48 48"
                   fill="none"
@@ -55,7 +55,7 @@ const Data = () => {
                   ></path>
                 </svg>
       </h1>
-      <h3 className="home_subtitle">Web Developer</h3>
+      <h3 className="home_subtitle">Front-End Engineer</h3>
       <p className="home_description">I specialize in crafting stunning, functional websites that captivate users. From selecting the perfect color schemes to designing intuitive user experiences, I bring visions to life.</p>
 
       <a href="#contact" className='button button--flex'>Hire Me 
