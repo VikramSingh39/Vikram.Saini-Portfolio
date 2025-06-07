@@ -77,6 +77,14 @@ export const projectsData = [
     category: "JavaScript",
     deploymentLink: "https://vikram-random-quote.netlify.app",
   },
+  {
+    id: 11,
+    image: "https://res.cloudinary.com/dtqc6499r/image/upload/v1749283102/netflix_lvlmdz.webp",
+    title: "Netflix-TMDB Web APP",
+    category: "React App",
+    description: `Netflix-GPT is a fully responsive movie discovery app built with React, Redux, Firebase Auth, and TMDB API, featuring search, routing, memoization, and clean component architecture.`,
+    deploymentLink: "netflixgpt-4cad2.web.app",
+  },
 ];
 
 export const projectsNav = [
