@@ -83,7 +83,7 @@ export const projectsData = [
     title: "Netflix-TMDB Web APP",
     category: "React App",
     description: `Netflix-GPT is a fully responsive movie discovery app built with React, Redux, Firebase Auth, and TMDB API, featuring search, routing, memoization, and clean component architecture.`,
-    deploymentLink: "netflixgpt-4cad2.web.app",
+    deploymentLink: "https://github.com/VikramSingh39/Netflix-GPT",
   },
 ];
 
