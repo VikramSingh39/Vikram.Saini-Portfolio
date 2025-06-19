@@ -1,58 +1,74 @@
 import React, { useEffect, useState } from "react";
 import { projectsData } from "./Data";
-import { projectsNav } from "./Data";
-import WorkItems from "./WorkItems";
+import WorkCard from "./WorkCard";
 
 const Works = () => {
-  const [item, setItem] = useState({ name: "JavaScript" });
-  const [projects, setProjects] = useState([]);
-  const [active, setActive] = useState(0);
 
-  useEffect(() => {
-    if (item.name === "all") {
-      setProjects(projectsData);
-    } else {
-      const newProjects = projectsData.filter((project) => {
-        return project.category === item.name;
-      });
-      setProjects(newProjects);
-    }
-  }, [item]);
-
-  const handleClick = (e, index)=>{
-    setItem({name: e.target.textContent});
-    setActive(index);
-  }
+const [filterdProject, setFilteredProject] = useState(
+  projectsData.filter((project)=> project.category === "react")
+);
+const [activeButton, setActiveButton] = useState('react');
 
   return (
-    <div>
-      <div className="work__filters">
-        {projectsNav.map((item, index) => {
-          return (
-            <span
-              onClick={(e) => {
-                handleClick(e, index);
-              }}
-              className={`${active === index ? "active-work" : ""} work__item`}
-              key={index}
-            >
-              {item.name}
-            </span>
-          );
-        })}
+    <>
+      {/* Project Button */}
+      <div className="projectButtonContainer">
+        <button
+          className={`projectButton ${activeButton === "all" ? "active-work" : ""}`}
+          onClick={() => {
+            setFilteredProject(projectsData);
+            setActiveButton("all");
+          }}
+        >
+          All
+        </button>
+
+        <button
+          className={`projectButton ${activeButton === "react" ? "active-work" : ""}`}
+          onClick={() => {
+            const filtered = projectsData.filter((project) => project.category === "react");
+            setFilteredProject(filtered);
+            setActiveButton("react");
+          }}
+        >
+          React
+        </button>
+
+        <button
+          className={`projectButton ${activeButton === "js" ? "active-work" : ""}`}
+          onClick={() => {
+            const filtered = projectsData.filter((project) => project.category === "js");
+            setFilteredProject(filtered);
+            setActiveButton("js");
+          }}
+        >
+          JavaScript
+        </button>
+
+        <button
+          className={`projectButton ${activeButton === "html-css" ? "active-work" : ""}`}
+          onClick={() => {
+            const filtered = projectsData.filter((project) => project.category === "html-css");
+            setFilteredProject(filtered);
+            setActiveButton("html-css");
+          }}
+        >
+          HTML, CSS/Tailwind
+        </button>
       </div>
+
+
+      {/* Porject' Card */}
       <div className="work__container container grid">
-        {projects.map((item) => {
-          return (
-            <WorkItems
-              item={item}
-              key={item.id}
-              deploymentLink={item.deploymentLink}
-            />
-          );
-        })}
+        {filterdProject.map((project, index) => (
+          <WorkCard
+            key={index}
+            item={project}
+            deploymentLink={project.deploymentLink}
+          />
+        ))}
       </div>
-    </div>
+    </>
   );
 };
 

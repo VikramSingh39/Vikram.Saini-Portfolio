@@ -77,7 +77,7 @@ const Data = () => {
                   ></path>
                 </svg>
       </a>
-                        <a download="" href={CV} className="button button--flex">Download Resume <svg
+                        <a download="" href='https://drive.google.com/file/d/1bp819nWA7xS4S01lBCdLKaMbXmtRutPy/view?usp=drive_link' target="_blank" rel='noopener' className="button button--flex">Download Resume <svg
                        className="button__icon"
                        xmlns="http://www.w3.org/2000/svg"
                        width="24"

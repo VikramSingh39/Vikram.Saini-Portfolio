@@ -1,12 +1,12 @@
-const imageCdnUrl = "https://res.cloudinary.com/dtqc6499r/image/upload/v1748831492/"
+const imageCdnUrl = "https://res.cloudinary.com/dtqc6499r/image/upload/"
 
 
 export const projectsData = [
   {
     id: 1,
-    image: "https://res.cloudinary.com/dtqc6499r/image/upload/v1748832662/sgcc2jfjlswrity72a0h_zmejyt.webp",
+    image: `https://res.cloudinary.com/dtqc6499r/image/upload/v1748832662/sgcc2jfjlswrity72a0h_zmejyt.webp`,
     title: "To-Do Crud App",
-    category: "JavaScript",
+    category: "js",
     description: 'User can add, delete, edit and search task. All task stored in local storage',
     deploymentLink: "https://vikram-to-do.netlify.app",
   },
@@ -14,7 +14,7 @@ export const projectsData = [
     id: 2,
     image: "https://res.cloudinary.com/dtqc6499r/image/upload/v1748832665/msvy9cxgnomuybgcn1xe_qctawr.webp",
     title: "React Login Page",
-    category: "React App",
+    category: "react",
     description: 'User can sign up and sign in',
     deploymentLink: "https://svikram-login-form.netlify.app",
   },
@@ -22,28 +22,28 @@ export const projectsData = [
     id: 3,
     image: "https://res.cloudinary.com/dtqc6499r/image/upload/v1748832666/jbsdcdyxvbd2suudgzvx_m7zwrm.webp",
     title: "E-Commerce",
-    category: "HTML CSS/Tailwind",
+    category: "html-css",
     deploymentLink: "https://vikram-e-commerce.netlify.app",
   },
   {
     id: 4,
     image: "https://res.cloudinary.com/dtqc6499r/image/upload/v1748832660/dbmkk9ksqar7vddhhxaj_waqgtq.webp",
     title: "Fylla Online Agency",
-    category: "HTML CSS/Tailwind",
+    category: "html-css",
     deploymentLink: "https://vikramsingh39.github.io/Fylla_Agency/",
   },
   {
     id: 5,
     image: "https://res.cloudinary.com/dtqc6499r/image/upload/v1748832665/h3gjm0q0uxq5apfota5m_e2xkhp.webp",
     title: "Bike Wale",
-    category: "HTML CSS/Tailwind",
+    category: "html-css",
     deploymentLink: "https://bike-wale.netlify.app",
   },
   {
     id: 6,
     image: "https://res.cloudinary.com/dtqc6499r/image/upload/v1748832662/spujl18rzdklvsgkrdy4_vk5dpd.webp",
     title: "Weather App",
-    category: "JavaScript",
+    category: "js",
     description: 'User can fetch real time weather data. This application provide Current Temp, Humidity and wind speed in his/her area',
     deploymentLink: "https://vikram-weather-application.netlify.app",
   },
@@ -51,14 +51,14 @@ export const projectsData = [
     id: 7,
     image: "https://res.cloudinary.com/dtqc6499r/image/upload/v1748832666/ujd5r9bdbhg1dpptqg10_zp2hiz.webp",
     title: "Huddle Landing Page",
-    category: "HTML CSS/Tailwind",
+    category: "html-css",
     deploymentLink: "https://huddle-landing-homepage.netlify.app",
   },
   {
     id: 8,
     image: "https://res.cloudinary.com/dtqc6499r/image/upload/v1748832666/tlmnfwgyqpsc1etfunb4_obo8bm.webp",
     title: "Infinite Scroll",
-    category: "JavaScript",
+    category: "js",
     description: "On scroll event user can fetch images infinitely",
     deploymentLink: "https://vikram-infinite-scroll.netlify.app",
   },
@@ -66,7 +66,7 @@ export const projectsData = [
     id: 9,
     image: "https://res.cloudinary.com/dtqc6499r/image/upload/v1748832661/gs9ginidozlp1ciigugk_ueu09f.webp",
     title: "Portfolio Website",
-    category: "JavaScript",
+    category: "js",
     description: 'portfolio website that contain Home, About, Contact and Project section',
     deploymentLink: "https://svikram-singh.netlify.app",
   },
@@ -74,30 +74,23 @@ export const projectsData = [
     id: 10,
     image: "https://res.cloudinary.com/dtqc6499r/image/upload/v1748832660/dkah62smridiki11dlu4_ty2pba.webp",
     title: "Random Quote Generator",
-    category: "JavaScript",
+    category: "js",
     deploymentLink: "https://vikram-random-quote.netlify.app",
   },
   {
     id: 11,
     image: "https://res.cloudinary.com/dtqc6499r/image/upload/v1749283102/netflix_lvlmdz.webp",
     title: "Netflix-TMDB Web APP",
-    category: "React App",
+    category: "react",
     description: `Netflix-GPT is a fully responsive movie discovery app built with React, Redux, Firebase Auth, and TMDB API, featuring search, routing, memoization, and clean component architecture.`,
     deploymentLink: "https://github.com/VikramSingh39/Netflix-GPT",
   },
-];
-
-export const projectsNav = [
     {
-        name: "all",
-      },
-  {
-    name: "React App",
-  },
-  {
-    name: "JavaScript",
-  },
-  {
-    name: "HTML CSS/Tailwind",
+    id: 12,
+    image: "https://res.cloudinary.com/dtqc6499r/image/upload/v1750291492/b0kji19x4yt20q7dk98f_fqqcyf.webp",
+    title: "YouTube Similar WebApp",
+    category: "react",
+    description: `A Youtube similar web app this project enhance my React, Redux and tailwind Skill. I gained in hand experience in how to integrate YouTube API in frontend project.`,
+    deploymentLink: "https://github.com/VikramSingh39/YouTube",
   },
 ];

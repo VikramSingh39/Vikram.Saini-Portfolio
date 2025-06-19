@@ -106,13 +106,13 @@ const Header = () => {
           </li>
         </ul>
         <i
-          class="ri-close-large-line nav__close"
+          className="ri-close-large-line nav__close"
           onClick={() => showMenu(!Toggle)}
         ></i>
       </div>
 
       <div className="nav__toggle" onClick={() => showMenu(!Toggle)}>
-        <i class="ri-apps-2-line"></i>
+        <i className="ri-apps-2-line"></i>
       </div>
     </nav>
   </header>

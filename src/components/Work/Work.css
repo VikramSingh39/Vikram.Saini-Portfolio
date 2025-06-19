@@ -58,25 +58,24 @@
     margin-block: 5px;
     width: 280px;
   }
-  .work__button{
-      color: rgb(0, 145, 255);
-      font-size: var(--small-font-size);
-      display: flex;
-      align-items: center;
-      column-gap: 0.25rem;
-      
+  .projectButtonContainer{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 12px;
+    margin-bottom: 1.5rem;
   }
-  .work__button-icon{
-      font-size: 1rem;
-      transition: 0.4s;
-  }
-  
-  .work__button:hover .work__button-icon{
-      transform: translateX(0.25rem);
-  }
-  
-  
-  
+.projectButton{
+    white-space: nowrap;
+    background-color: white;
+    border: none;
+    border-radius: 16px;
+    color: black;
+    border: black solid 1.5px;
+    padding-inline: 1rem;
+    padding-block: 10px;
+} 
   .active-work{
       background-color: var(--title-color);
       color: var(--container-color);
