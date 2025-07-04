@@ -85,7 +85,7 @@ export const projectsData = [
     description: `Netflix-GPT is a fully responsive movie discovery app built with React, Redux, Firebase Auth, and TMDB API, featuring search, routing, memoization, and clean component architecture.`,
     deploymentLink: "https://github.com/VikramSingh39/Netflix-GPT",
   },
-    {
+  {
     id: 12,
     image: "https://res.cloudinary.com/dtqc6499r/image/upload/v1750291492/b0kji19x4yt20q7dk98f_fqqcyf.webp",
     title: "YouTube Similar WebApp",
@@ -93,4 +93,22 @@ export const projectsData = [
     description: `A Youtube similar web app this project enhance my React, Redux and tailwind Skill. I gained in hand experience in how to integrate YouTube API in frontend project.`,
     deploymentLink: "https://github.com/VikramSingh39/YouTube",
   },
+  {
+    id: 13,
+    image: "https://res.cloudinary.com/dtqc6499r/image/upload/v1751613222/World_Atlas_wdjbb8.png",
+    title: "World Atlas",
+    category: "react",
+    description: `User can search any country in the world. After searching he will get certain info about country like: Population, Native Name, Region, Capital, Currency and Language. User Can Filter countries on the continent basis`,
+    deploymentLink: "world-country-atlas.netlify.app",
+  }, 
+  {
+    id: 14,
+    image: "https://res.cloudinary.com/dtqc6499r/image/upload/v1751612682/Macbook-Air-localhost_b66in6.png",
+    title: "Electro E-Commerce",
+    category: "react",
+    description: `Electro is Electronic E-Commerce website. User can filter, sort and search the products.`,
+    deploymentLink: "https://github.com/VikramSingh39/Electro-E-Commerce",
+  },
 ];
+
+
