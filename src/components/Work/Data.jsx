@@ -99,7 +99,7 @@ export const projectsData = [
     image: "https://res.cloudinary.com/dtqc6499r/image/upload/v1751612682/Macbook-Air-localhost_b66in6.png",
     title: "Electro E-Commerce",
     category: "react",
-    description: `Electro is Electronic E-Commerce website. User can filter, sort and search the products.`,
+    description: `Electro is Electronic E-Commerce website. User can Purchase, filter, sort and search the products.`,
     deploymentLink: "https://github.com/VikramSingh39/Electro-E-Commerce",
   },
 ];
