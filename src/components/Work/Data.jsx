@@ -92,7 +92,7 @@ export const projectsData = [
     title: "World Atlas",
     category: "react",
     description: `User can search any country in the world. After searching he will get certain info about country like: Population, Native Name, Region, Capital, Currency and Language. User Can Filter countries on the continent basis`,
-    deploymentLink: "world-country-atlas.netlify.app",
+    deploymentLink: "https://world-country-atlas.netlify.app",
   }, 
   {
     id: 13,
