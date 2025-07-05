@@ -102,6 +102,14 @@ export const projectsData = [
     description: `Electro is Electronic E-Commerce website. User can Purchase, filter, sort and search the products.`,
     deploymentLink: "https://github.com/VikramSingh39/Electro-E-Commerce",
   },
+  {
+    id: 14,
+    image: "https://res.cloudinary.com/dtqc6499r/image/upload/v1751703477/Picsart_25-07-05_13-45-03-788_pfubyh.png",
+    title: "Employee Management System",
+    category: "react",
+    description: `Admin can assign create and assign task. Employee will receive task and complete.`,
+    deploymentLink: "https://vikram-ems.netlify.app",
+  },
 ];
 
 
